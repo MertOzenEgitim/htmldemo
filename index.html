@@ -3,57 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3-HTML Metin İşleme ve Formatlama</title>
+    <title>4-HTML Bağlantılar ve URL Yönetimi</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- Başlık Etiketleri -->
-     <h1>H1</h1>
-     <h2>H2</h2>
-     <h3>H3</h3>
-     <h4>H4</h4>
-     <h5>H5</h5>
-     <h6>H6</h6>
+    <!-- <a href="https://www.google.com">Google</a>
+    <a href="https://www.google.com" target="_self">Google</a>
+    <a href="https://www.google.com" target="_blank">Google</a> -->
+    <!-- target -->
+    <!-- _self:bağlantıyı aynı sekmede açar (default) -->
+    <!-- _blank:bağlantıyı yeni sekmede açar -->
+    <!-- _parent:bir üst çerçevede (frame) sekmeyi açar -->
+    <!-- _top:en üst çerçevede (frame) sekmeyi açar -->
+    <!-- <a href="icerik.html">İçerik</a> -->
 
-    <!-- Paragraf -->
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, magni! Quia est beatae, laborum praesentium consectetur labore. Tenetur vero labore nihil esse quasi enim iusto cumque assumenda nulla, alias eligendi.</p>
+    <!-- Sayfa içi bağlantılar -->
+    <!-- <p id="p1">Paragraf 1</p>
+    <h2 id="bolum1">Bölüm 1</h2>
+    <div style="height: 1000px;"></div>
+    <a href="#bolum1">Bölüm 1'e Git</a>
+    <a href="#p1">Paragraf 1'e Git</a> -->
 
-    <!-- Kalın ve İtalik Metin Yazma -->
-    <p>Merhaba, <b>Mert</b></p>
-    <p>Merhaba, <i>Mert</i></p>
-    <p>Merhaba, <b><i>Mert</i></b></p>
-    <p>Merhaba, <strong>Mert</strong></p>
-    <p>Merhaba, <em>Mert</em></p>
+    <!-- E-posta ve Telefon Bağlantıları -->
+     <!-- <a href="mailto:abc@abc.com">E-posta gönder</a>
+     <a href="tel:+901234567895">Bizi Arayın</a> -->
 
-    <!-- Altı Çizili ve Üstü Çizili Metin -->
-     <u>Merhaba Dünya</u>
-     <s>Merhaba Dünya</s>
-     <del>Merhaba Dünya</del>
-
-    <!-- Üst ve Alt Simge Kullanımı -->
-    <p>Matematiksel ifade:2<sup>3</sup>=8</p>
-    <p>Kimyasal formül:H<sub>2</sub>O</p>
-
-    <!-- Önceden Formatlanmış Metin -->
-    <pre>
-    Bu bir önceden
-        biçimlendirilmiş    metindir.
-    </pre>
-    <p><code>console.log("Merhaba Dünya!");</code></p>
-
-    <!-- Alıntılar -->
-     <blockquote>
-        HTML, web sayfalarını oluşturmak için kullanılan temel bir işaretleme dilidir.
-     </blockquote>
-     <p>
-        <q>HTML bir işaretleme dilidir.</q>
-     </p>
-
-     <!-- Adres Etiketi -->
-      <address>
-        Web Geliştirici: Mert Özen <br>
-        E-posta: abc@deneme.com
-        Konum: İstanbul, Türkiye
-      </address>
+    <!-- Resimleri Bağlantı Olarak Kullanma -->
+    <!-- <a href="https://www.google.com">
+        <img src="image.png" alt="google" width="100">
+    </a> -->
+    <h1>Anasayfa</h1>
+    <iframe src="icerik.html" frameborder="0" height="300" sandbox></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WYMlM1czwIE?si=GizES8XAziZGhqod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>

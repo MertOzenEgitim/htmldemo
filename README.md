@@ -19,14 +19,11 @@
 * HTML Yorumları (`<!--Yorumlar-->`)
 * Boşluklar ve Satır Atlama (`<br>`,`&nbsp;`)
 
-## 3-HTML Metin İşleme ve Formatlama
+## 4-HTML Bağlantılar ve URL Yönetimi
 
-* Başlık Etiketleri (`<h1> - <h6>`)
-* Paragraflar (`<p>`)
-* Kalın (`<b>` vs `<strong>`) ve İtalik (`<i>` vs `<em>`) Metin
-* Altı Çizili (`<u>`) ve Üstü Çizili (`<s>` ve `<del>`) Metin
-* Üst (`<sup>`) ve Alt (`<sub>`) Simge Kullanımı
-* Önceden Formatlanmış Metin (`<pre>` ve `<code>`)
-* Alıntılar (`<blockquote>`, `<q>`)
-* Adres Etiketi (`<address>`)
+* Bağlantı Etiketi (`<a href="URL">`)
+* Sayfa İçi Bağlantılar (`id` ve `#` ile çalışmak)
+* E-posta ve Telefon Bağlantıları (`mailto:` ve `tel:`)
+* Resimleri Bağlantı Olarak Kullanma (`<a>` içinde `<img>`)
+* Iframe (Çerçeve) ile İç İçe Sayfa Kullanımı
 
