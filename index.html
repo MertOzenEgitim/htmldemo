@@ -1,32 +1,59 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İlk Web Sayfam</title>
+    <title>3-HTML Metin İşleme ve Formatlama</title>
     <link rel="stylesheet" href="index.css">
-    <style>
-        h1{
-            font-size: 20px;
-        }
-    </style>
-    <script>
-        console.log("Merhaba");
-    </script>
 </head>
 <body>
-    <h1 title="Hello">Merhaba</h1>
+    <!-- Başlık Etiketleri -->
+     <h1>H1</h1>
+     <h2>H2</h2>
+     <h3>H3</h3>
+     <h4>H4</h4>
+     <h5>H5</h5>
+     <h6>H6</h6>
 
-    <!-- Header Section Start -->
-     <div>Deneme</div>
-    <!-- Header Section End-->
+    <!-- Paragraf -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, magni! Quia est beatae, laborum praesentium consectetur labore. Tenetur vero labore nihil esse quasi enim iusto cumque assumenda nulla, alias eligendi.</p>
 
-    <div>Merhaba Mert <br> Bugün&nbsp;&nbsp;&nbsp;&nbsp;hava&nbsp;&nbsp;&nbsp;&nbsp;güneşli! </div>
+    <!-- Kalın ve İtalik Metin Yazma -->
+    <p>Merhaba, <b>Mert</b></p>
+    <p>Merhaba, <i>Mert</i></p>
+    <p>Merhaba, <b><i>Mert</i></b></p>
+    <p>Merhaba, <strong>Mert</strong></p>
+    <p>Merhaba, <em>Mert</em></p>
 
-    <div>
-        <p>Merhaba <span style="color:red;">Mert</span></p>
-    </div>
+    <!-- Altı Çizili ve Üstü Çizili Metin -->
+     <u>Merhaba Dünya</u>
+     <s>Merhaba Dünya</s>
+     <del>Merhaba Dünya</del>
 
-    <script src="index.js"></script>
+    <!-- Üst ve Alt Simge Kullanımı -->
+    <p>Matematiksel ifade:2<sup>3</sup>=8</p>
+    <p>Kimyasal formül:H<sub>2</sub>O</p>
+
+    <!-- Önceden Formatlanmış Metin -->
+    <pre>
+    Bu bir önceden
+        biçimlendirilmiş    metindir.
+    </pre>
+    <p><code>console.log("Merhaba Dünya!");</code></p>
+
+    <!-- Alıntılar -->
+     <blockquote>
+        HTML, web sayfalarını oluşturmak için kullanılan temel bir işaretleme dilidir.
+     </blockquote>
+     <p>
+        <q>HTML bir işaretleme dilidir.</q>
+     </p>
+
+     <!-- Adres Etiketi -->
+      <address>
+        Web Geliştirici: Mert Özen <br>
+        E-posta: abc@deneme.com
+        Konum: İstanbul, Türkiye
+      </address>
 </body>
 </html>
