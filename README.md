@@ -38,3 +38,10 @@
 * Resimleri Bağlantı Olarak Kullanma (`<a>` içinde `<img>`)
 * Iframe (Çerçeve) ile İç İçe Sayfa Kullanımı
 
+## 5-HTML Listeler
+* Sırasız Listeler (`<ul>` ve type Özelliği)
+* Sıralı Listeler (`<ol>` ve type Özelliği)
+* Tanımlama Listesi (`<dl>`, `<dt>`, `<dd>`)
+* İç İçe Geçmiş Listeler (Nested Lists)
+
+
