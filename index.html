@@ -3,37 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4-HTML Bağlantılar ve URL Yönetimi</title>
+    <title>5-HTML Listeler</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- <a href="https://www.google.com">Google</a>
-    <a href="https://www.google.com" target="_self">Google</a>
-    <a href="https://www.google.com" target="_blank">Google</a> -->
-    <!-- target -->
-    <!-- _self:bağlantıyı aynı sekmede açar (default) -->
-    <!-- _blank:bağlantıyı yeni sekmede açar -->
-    <!-- _parent:bir üst çerçevede (frame) sekmeyi açar -->
-    <!-- _top:en üst çerçevede (frame) sekmeyi açar -->
-    <!-- <a href="icerik.html">İçerik</a> -->
+    <!-- Sırasız List -->
+     <!-- type=disc,circle,square -->
+    <ul type="square">
+        <li>Kitap</li>
+        <li>Kalem</li>
+        <li>Defter</li>
+    </ul>
+    <ul id="unordered-list">
+        <li>Kitap</li>
+        <li>Kalem</li>
+        <li>Defter</li>
+    </ul>
 
-    <!-- Sayfa içi bağlantılar -->
-    <!-- <p id="p1">Paragraf 1</p>
-    <h2 id="bolum1">Bölüm 1</h2>
-    <div style="height: 1000px;"></div>
-    <a href="#bolum1">Bölüm 1'e Git</a>
-    <a href="#p1">Paragraf 1'e Git</a> -->
+    <!-- Sıralı Liste -->
+     <!-- type:1,A,a,I,i -->
+    <ol>
+        <li>Eski Çağ</li>
+        <li>Orta Çağ</li>
+        <li>Yeni Çağ</li>
+    </ol>
+    <ol type="A">
+        <li>Eski Çağ</li>
+        <li>Orta Çağ</li>
+        <li>Yeni Çağ</li>
+    </ol>
+    <ol type="a">
+        <li>Eski Çağ</li>
+        <li>Orta Çağ</li>
+        <li>Yeni Çağ</li>
+    </ol>
+    <ol id="ordered-list">
+        <li>Eski Çağ</li>
+        <li>Orta Çağ</li>
+        <li>Yeni Çağ</li>
+    </ol>
 
-    <!-- E-posta ve Telefon Bağlantıları -->
-     <!-- <a href="mailto:abc@abc.com">E-posta gönder</a>
-     <a href="tel:+901234567895">Bizi Arayın</a> -->
+    <!-- Tanımlama Listesi -->
+     <dl>
+        <dt>HTML</dt>
+        <dd>Web sayfalarının iskeletini oluşturan işaretleme dilidir.</dd>
+        <dt>CSS</dt>
+        <dd>Web sayfalarının tasarım ve stillerini belirlemek için kullanılır.</dd>
+        <dt>Javascript</dt>
+        <dd>Web sayfalarına etkileşim kazandıran progralama/scripting dilidir.</dd>
+     </dl>
 
-    <!-- Resimleri Bağlantı Olarak Kullanma -->
-    <!-- <a href="https://www.google.com">
-        <img src="image.png" alt="google" width="100">
-    </a> -->
-    <h1>Anasayfa</h1>
-    <iframe src="icerik.html" frameborder="0" height="300" sandbox></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/WYMlM1czwIE?si=GizES8XAziZGhqod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <!-- İç İçe Geçmiş Listeler (Nested Lists) -->
+      <ul>
+        <li>Frontend Teknolojiler
+            <ul>
+                <li>HTML
+                    <ul>
+                        <li>deneme</li>
+                    </ul>
+                </li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </li>
+        <li>Backend Teknolojileri
+            <ol>
+                <li>.NET</li>
+                <li>PHP</li>
+                <li>Node.js</li>
+            </ol>
+        </li>
+      </ul>
+
+    <script src="index.js"></script>
 </body>
 </html>

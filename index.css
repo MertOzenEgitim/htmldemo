@@ -2,10 +2,9 @@ body{
     background-color: rgb(50, 49, 49);
     color: white;
 }
-a{
-    color:white;
+#unordered-list{
+    list-style-type: square;
 }
-iframe{
-    width: 100%;
-    height: 60vh;
+#ordered-list{
+    list-style-type: lower-alpha;
 }
