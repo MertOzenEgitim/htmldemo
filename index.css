@@ -2,9 +2,3 @@ body{
     background-color: rgb(50, 49, 49);
     color: white;
 }
-#unordered-list{
-    list-style-type: square;
-}
-#ordered-list{
-    list-style-type: lower-alpha;
-}

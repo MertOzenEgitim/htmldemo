@@ -44,4 +44,13 @@
 * Tanımlama Listesi (`<dl>`, `<dt>`, `<dd>`)
 * İç İçe Geçmiş Listeler (Nested Lists)
 
+## 6-HTML Görseller ve Medya Kullanımı
+* Görsel Eklemek (`<img>` `<picture>` ve alt)
+* Görsellerin Boyutlandırılması (CSS Kullanmadan width ve height)
+* SVG , JPG ve PNG Kullanımı
+* GIF ve Animasyonlu Görseller
+* Image Map
+* Ses Ekleme (`<audio>`)
+* Video Ekleme (`<video>` ve `<source>`)
+
 
