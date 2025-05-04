@@ -53,4 +53,11 @@
 * Ses Ekleme (`<audio>`)
 * Video Ekleme (`<video>` ve `<source>`)
 
+## 7-HTML Tablolar
+* Tablo Yapısı (`<table>`, `<tr>`, `<td>`, `<th>`)
+* Satır ve Sütun Birleştirme (rowspan, colspan)
+* Tablo Başlıkları (`<caption>`)
+* Tablo Gruplama (`<thead>`, `<tbody>`, `<tfoot>`)
+
+
 
