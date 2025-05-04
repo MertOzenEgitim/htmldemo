@@ -3,45 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>6-HTML Görseller ve Medya Kullanımı</title>
+    <title>6-HTML Tablolar</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        table td,th{
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     
-    <!-- <img src="assets/images/workplacea.jpg" alt="workplace"> -->
-    <!-- <img src="assets/images/workplace.jpg" alt="workplace"> -->
-    <!-- <picture>
-    <source media="(max-width: 400px)" srcset="assets/images/workplace-small.jpg">
-    <source media="(min-width: 401px)" srcset="assets/images/workplace.jpg">
-    <img src="assets/images/workplace-small.jpg" alt="workplace">
-    </picture> -->
-    <!-- <p>Lorem ipsum dolor sit amet.</p> -->
-    <!-- <img src="assets/images/workplace.jpg" alt="workplace" width="400" height="379"> -->
-    <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+    <!-- <table>
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+        </tr>
+        <tr>
+            <td>Mert</td>
+            <td>Özen</td>
+        </tr>
+    </table> -->
 
-    <!-- <img src="assets/images/logo-mavi.svg" alt="logo-mavi"> -->
-    <!-- <img src="assets/images/logo-mavi.png" alt="logo-mavi" width="240" height="240"> -->
+    <!-- <table>
+        <caption>Kullanıcı Bilgileri</caption>
+        <tr>
+            <th rowspan="2">Ad</th>
+            <th colspan="2">İletişim</th>
+        </tr>
+        <tr>
+            <th>Email</td>
+            <th>Telefon</td>
+        </tr>
+        <tr>
+            <td>Mert</td>
+            <td>mert@gmail.com</td>
+            <td>12154546654</td>
+        </tr>
+    </table> -->
 
-    <!-- <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="blue"/>
-    </svg> -->
-
-    <!-- <img src="assets/images/programming.gif" alt="programming"> -->
-
-    <!-- <img src="assets/images/workplace.jpg" alt="workplace" usemap="#workmap">
-    <map name="workmap">
-        <area shape="rect" coords="34,44,270,350" href="https://www.google.com/search?q=bilgisayarlar" alt="computer">
-    </map> -->
-
-    <!-- <audio controls>
-        <source src="assets/audios/jingle-punks.mp3" type="audio/mpeg">
-        Tarayıcınız ses ögesini desteklemiyor.
-    </audio> -->
-
-    <!-- <video width="640" height="360" controls autoplay loop muted>
-        <source src="assets/videos/mov_bbb.mp4" type="video/mp4">
-        Tarayıcınız video ögesini desteklemiyor.
-    </video> -->
+    <table>
+        <caption>Ürün Listesi</caption>
+        <thead>
+            <tr>
+                <th>Ürün</th>
+                <th>Fiyat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kalem</td>
+                <td>10 TL</td>
+            </tr>
+            <tr>
+                <td>Defter</td>
+                <td>15 TL</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Toplam</td>
+                <td>25 TL</td>
+            </tr>
+        </tfoot>
+    </table>
 
     <script src="index.js"></script>
 </body>
