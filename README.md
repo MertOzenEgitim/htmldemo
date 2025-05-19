@@ -59,5 +59,17 @@
 * Tablo Başlıkları (`<caption>`)
 * Tablo Gruplama (`<thead>`, `<tbody>`, `<tfoot>`)
 
+## 8-HTML Formlar ve Kullanıcı Girdileri
+* Form Yapısı (`<form>`)
+* Metin Alanları (`<input type="text">`, `<textarea>`)
+* Düğmeler (`<button>`, `<input type="submit">`, `<input type="reset">`)
+* Radyo Butonları ve Onay Kutuları (`<input type="radio">`, `<input type="checkbox">`)
+* Açılır Seçim Kutusu (`<select>`, `<option>`)
+* Etiketleme (`<label>`, `<fieldset>`, `<legend>`)
+* Form Doğrulama (required, pattern, min, max, maxlength)
+* Gelişmiş Girdi Türleri (date,time,color,file,number,url,search vb.)
+* Gizli Girdi Alanı (hidden)
+* Otomatik Tamamlama ve Odaklanma
+* Enctype Kullanımı
 
 
