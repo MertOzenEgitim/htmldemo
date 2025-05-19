@@ -3,69 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>6-HTML Tablolar</title>
-    <link rel="stylesheet" href="index.css">
-    <style>
-        table td,th{
-            border: 1px solid black;
-        }
-    </style>
+    <title>8-HTML Formlar</title>
+    <link rel="stylesheet" href="index.css">   
 </head>
 <body>
     
-    <!-- <table>
-        <tr>
-            <th>Ad</th>
-            <th>Soyad</th>
-        </tr>
-        <tr>
-            <td>Mert</td>
-            <td>Özen</td>
-        </tr>
-    </table> -->
-
-    <!-- <table>
-        <caption>Kullanıcı Bilgileri</caption>
-        <tr>
-            <th rowspan="2">Ad</th>
-            <th colspan="2">İletişim</th>
-        </tr>
-        <tr>
-            <th>Email</td>
-            <th>Telefon</td>
-        </tr>
-        <tr>
-            <td>Mert</td>
-            <td>mert@gmail.com</td>
-            <td>12154546654</td>
-        </tr>
-    </table> -->
-
-    <table>
-        <caption>Ürün Listesi</caption>
-        <thead>
-            <tr>
-                <th>Ürün</th>
-                <th>Fiyat</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Kalem</td>
-                <td>10 TL</td>
-            </tr>
-            <tr>
-                <td>Defter</td>
-                <td>15 TL</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Toplam</td>
-                <td>25 TL</td>
-            </tr>
-        </tfoot>
-    </table>
+    <form action="https://www.google.com/SaveForm" method="post" autocomplete="off" enctype="multipart/form-data">
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" autofocus>
+        <br>
+        <label for="password">Şifre:</label>
+        <input type="password" pattern="^[a-zA-Z0-9]{6,}$" id="password" name="password" required>
+        <br>
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>               
+            <label for="fullname">Ad:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Adınızı girin">
+            <br>
+            <label for="address">Adres:</label>
+            <textarea name="address" minlength="18" maxlength="200" id="address" rows="4" cols="30"></textarea>
+            <br>
+            <label><input type="radio" name="gender" value="0" checked>Erkek</label>
+            <label><input type="radio" name="gender" value="1">Kadın</label>
+            <br>
+            <select name="city" id="city">
+                <option value="06">Ankara</option>
+                <option value="34">İstanbul</option>
+                <option value="37">Kastamonu</option>
+            </select>
+            <br>
+            <input type="date" name="startDate">
+            <input type="time" name="startTime">
+            <input type="color" name="selectedColor">
+            <input type="file" accept=".png, .jpg, .jpeg" name="cvFile">
+            <input type="number" name="age">
+            <input type="hidden" name="formId" value="12345">
+        </fieldset> 
+        <br>
+        <label><input type="checkbox" name="terms" required>Şartları kabul ediyorum.</label>
+        <br>
+        <button type="submit">Gönder</button>
+        <button type="reset">Temizle</button>
+    </form>
 
     <script src="index.js"></script>
 </body>
