@@ -78,4 +78,15 @@
 * `<div>` Kullanımı
 * CSS Olmadan Sayfa Düzeni Yapmanın Zorlukları
 
+## 10-HTML Semantik Etiketler ve Sayfa Yapısı
+* HTML5 Semantik Etiketler 
+* `<header>`
+* `<nav>`
+* `<main>`
+* `<section>`
+* `<article>`
+* `<aside>`
+* `<footer>`
+* SEO İçin Doğru HTML Kullanımı
+* Erişilebilirlik (Accessibility) İlkeleri - ARIA
 

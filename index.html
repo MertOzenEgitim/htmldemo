@@ -9,83 +9,61 @@
         body{
             margin: 0;
         }
-        .header,.footer{
+        header,footer{
             background-color: #ccc;
             text-align: center;
             padding: 20px;
-        }
-        .footer{
-            padding: 15px;
         }
         .container{
             display: flex;
             height: 500px;
         }
-        .main{
+        main{
             flex: 3;
             background-color: #f0f0f0;
             padding: 20px;
         }
-        .aside{
-            flex: 1;
+        aside{
+            flex:1;
             background-color: #e0e0e0;
             padding: 20px;
+        }
+        footer{
+            padding: 15px;
         }
     </style>
 </head>
 <body>
-    
-    <!-- <div>Merhaba</div><div>Merhaba</div>
-    <span>Dünya</span><span>Dünya</span> -->
-
-    <!-- <table border="1" width="100%" heigth="600" cellpadding="10" cellspacing="0">
-        <tr heigth="100">
-            <td colspan="2" style="background-color: #ccc;text-align: center;">
-                <h1>Başlık (Header)</h1>
-            </td>
-        </tr>
-        <tr>
-            <td width="75%" valign="top" style="background-color: #f0f0f0;">
-                <h2>Ana İçerik</h2>
-                <p>Bu alan sayfanın içerik kısmıdır.</p>
-            </td>
-            <td width="25%" valgin="top" style="background-color: #e0e0e0;">
-                <h3>Kenar Alan(Aside)</h3>
-                <ul>
-                    <li>Link 1</li>
-                    <li>Link 2</li>
-                    <li>Link 3</li>
-                </ul>
-            </td>
-            <tr heigth="50">
-                <td colspan="2" style="background-color: #ccc;text-align: center;">
-                    <p>Alt Bilgi (Footer)</p>
-                </td>
-            </tr>
-        </tr>
-    </table> -->
-
-    <div class="header">
+   
+    <header>
         <h1>Başlık (Header)</h1>
-    </div>
+    </header>
     <div class="container">
-        <div class="main">
+        <main>
             <h2>Ana İçerik</h2>
             <p>Bu alan sayfanın içerik kısmıdır.</p>
-        </div>
-        <div class="aside">
+            <section>
+                <h2>Öne Çıkanlar</h2>
+            </section>
+            <section>
+                <h2>Son Yayınlananlar</h2>
+            </section>
+        </main>
+        <aside>
             <h3>Kenar Alan (Aside)</h3>
-            <ul>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-            </ul>
-        </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</li>
+                    <li><a href="#">Link 3</li>
+                </ul>
+            </nav>
+        </aside>
     </div>
 
-    <div class="footer">
+    <footer>
         <p>Alt Bilgi (Footer)</p>
-    </div>
+    </footer>
 
     <script src="index.js"></script>
 </body>
