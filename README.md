@@ -72,4 +72,10 @@
 * Otomatik Tamamlama ve Odaklanma
 * Enctype Kullanımı
 
+## 9-HTML ile Sayfa Düzeni
+* Block Element, Inline Element, Inline Block Element
+* Tablo ile Sayfa Düzeni Yapmaya Çalışmak (Yanlış Yöntem!)
+* `<div>` Kullanımı
+* CSS Olmadan Sayfa Düzeni Yapmanın Zorlukları
+
 
