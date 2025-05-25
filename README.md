@@ -90,3 +90,19 @@
 * SEO İçin Doğru HTML Kullanımı
 * Erişilebilirlik (Accessibility) İlkeleri - ARIA
 
+## 11-HTML Özellikler (Attribute)
+* HTML Özellikleri (Attribute) Nedir?
+* Global Özellikler (Her HTML Etiketinde Kullanılabilenler) 
+* * id, class, title, style, hidden, lang, dir
+* Özel Özellikler (Sadece Belirli Etiketlerde Kullanılanlar) 
+* * Bağlantılar İçin → href, target, rel
+* * Görseller İçin → src, alt, width, height
+* * Form Elemanları İçin → value, placeholder, disabled, readonly, required, maxlength, min, max
+* Boolean Özellikler (Değer Almayanlar, Varsa Etkin Olanlar) 
+* * checked, disabled, readonly, required, hidden
+* Veri Tutmak İçin Kullanılan Özel Özellikler 
+* * data-* (Özel Veri Özellikler)
+* Özellikler Doğru Kullanma ve HTML Standartlarına Uygunluk
+* * https://validator.w3.org/ 
+
+

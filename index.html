@@ -5,65 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>9-HTML ile Sayfa Düzeni</title>
     <link rel="stylesheet" href="index.css">   
-    <style>
-        body{
-            margin: 0;
-        }
-        header,footer{
-            background-color: #ccc;
-            text-align: center;
-            padding: 20px;
-        }
-        .container{
-            display: flex;
-            height: 500px;
-        }
-        main{
-            flex: 3;
-            background-color: #f0f0f0;
-            padding: 20px;
-        }
-        aside{
-            flex:1;
-            background-color: #e0e0e0;
-            padding: 20px;
-        }
-        footer{
-            padding: 15px;
-        }
-    </style>
 </head>
 <body>
    
-    <header>
-        <h1>Başlık (Header)</h1>
-    </header>
-    <div class="container">
-        <main>
-            <h2>Ana İçerik</h2>
-            <p>Bu alan sayfanın içerik kısmıdır.</p>
-            <section>
-                <h2>Öne Çıkanlar</h2>
-            </section>
-            <section>
-                <h2>Son Yayınlananlar</h2>
-            </section>
-        </main>
-        <aside>
-            <h3>Kenar Alan (Aside)</h3>
-            <nav>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</li>
-                    <li><a href="#">Link 3</li>
-                </ul>
-            </nav>
-        </aside>
-    </div>
+    <!-- Global Özellikler -->
+    <!-- id,class,title,style,hidden,lang,dir -->
+    <div id="box"></div>
+    <div class="box"></div>
+    <div title="Bilgisayar Mühendisi">Mert Özen</div>
+    <div style="color:orangered;">İstanbul</div>
+    <div hidden>Bu içerik gizlidir.</div>
+    <p lang="en">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque maiores debitis esse nesciunt magni, nisi accusantium illum dolore quia obcaecati optio perferendis rerum? Nulla modi nisi placeat laboriosam. Aliquam, quo.</p>
+    <p dir="rtl">Sağdan sola yazı</p>
+    <p dir="ltr">Soldan sağa yazı</p>
 
-    <footer>
-        <p>Alt Bilgi (Footer)</p>
-    </footer>
+    <!-- Özel Özellikler -->
+    <!-- a etiketi (bağlantılar) -->
+    <!-- href,target,rel -->
+      <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"></a>
+    <!-- görseller -->
+    <!-- src,alt,width,height -->
+    <img src="/assets/images/logo-mavi.png" alt="logo" width="200" height="200">
+    <!-- form elemanları -->
+    <!-- value,placeholder,disabled,readonly,required,min,max,maxlength -->
+    <input type="text" value="Adınız" placeholder="Adınızı Girin" disabled>
+    <input type="text" value="Adınız" placeholder="Adınızı Girin" readonly>
+    <input type="text" value="Adınız" placeholder="Adınızı Girin" maxlength="10">
+    <!-- boolean özellikler -->
+    <!-- checked,disabled,readonly,required,hidden -->
+    <label><input type="checkbox" checked> Koşulları kabul ediyorum.</label>
+    <!-- veri tutmak için kullanılan özellik-(data-*) -->
+    <div id="user-info" data-rol="admin" data-id="42">Kullanıcı Bilgisi</div>
 
     <script src="index.js"></script>
 </body>
